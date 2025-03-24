@@ -1,0 +1,55 @@
+Routine	Type  (INT: interactive text,  e.g. button; TXT: written text)	English (original study)	English (our study)	Italian (our study)	Inglese Studio nostro
+Routine 3 — Welcome	TXT		Welcome to the experiment!	Benvenuto all'esperimento!	
+Routine 3 — Welcome	INT		Click to start	Clicca per iniziare	
+Routine 4 — Instructions	TXT		Instructions	Istruzioni	
+Routine 4 — Instructions	INT		Next	Avanti	
+Routine 4 — Instructions	INT		Back	Indietro	
+Routine 4 — Instructions	INT		Continue	Continua	
+					
+Routine 4 — Instructions	TXT	Imagine that you are a medical doctor who works at the Hospital Emergency Department	Imagine you are a doctor working in the emergency room of a hospital. 	Immagina di essere un medico che lavora nel pronto soccorso di un ospedale.	
+Routine 4 — Instructions	TXT	You are a specialist in a rare and dangerous disease called 'Lindsay Syndrome' which must be treated quickly in the emergency room.	You are a specialist in a rare and dangerous disease called 'Lindsay Syndrome', which must be treated quickly in the emergency room.	Sei uno specialista in una malattia rara e pericolosa chiamata "Sindrome di Lindsay", che deve essere trattata rapidamente in pronto soccorso.	
+Routine 4 — Instructions	TXT	Crises induced by this illness may be stopped immediately by using a medicine called 'Batatrim', but this medicine is still in testing stage, and therefore its reliability has not been completely proven yet.	Crises induced by this disease can be stopped immediately with a medicine called 'Batatrim', which is still in the testing stage. Its reliability has not yet been completely proven.	Le crisi indotte da questa malattia possono essere fermate immediatamente con un farmaco chiamato "Batatrim", che è ancora in fase di sperimentazione. La sua affidabilità non è stata ancora completamente provata.	
+Routine 4 — Instructions	TXT	In addition, you should know that it may produce several side effects, which can be severe, so it cannot always be used.	In addition, this medicine may produce several side effects, which can be severe, so it cannot always be used.	Inoltre, questo farmaco può produrre molti effetti collaterali, che possono essere gravi, quindi non può essere sempre utilizzato.	
+Routine 4 — Instructions	TXT	When you click on the 'Start' button, you will be presented with a series of medical records of patients suffering from 'Lindsay Syndrome'.	Next, you will be presented with a series of medical records of patients suffering from Lindsay Syndrome.	In seguito, ti verranno presentate una serie di cartelle cliniche di pazienti che soffrono della Sindrome di Lindsay.	
+Routine 4 — Instructions	TXT	In each record, you will first know whether or not the patient had taken Batatrim, and you will be asked to indicate whether you think the patient will recover from the crisis.	In each record, you will first see whether the patient had taken Batatrim, and you will be asked to indicate whether you think the patient will recover from the crisis.	In ogni cartella, prima vedrai se il paziente ha preso il Batatrim, e ti verrà chiesto di indicare se pensi che il paziente si riprenderà dalla crisi.	
+Routine 4 — Instructions	TXT	Then, you will see whether or not the patient actually recovered from the crisis.	Then, you will see whether the patient actually recovered from the crisis.	Poi vedrai se il paziente si è effettivamente ripreso dalla crisi.	
+Routine 4 — Instructions	TXT	Try to find out the extent to which Batatrim is actually effective. 	Try to find out the extent to which Batatrim is actually effective. 	Cerca di scoprire in che misura il Batatrim è realmente efficace.	
+Routine 4 — Instructions	TXT	Once you have seen a number of patients, you will be asked a few questions.	Once you have seen a number of medical records, you will be asked a few questions.	Una volta che avrai visto un certo numero di cartelle cliniche, ti verranno fatte alcune domande.	
+Routine 4 — Instructions	TXT		Before you begin reviewing these medical records, you will be asked a question related to the story you have just read.	Prima di iniziare l’osservazione di queste cartelle cliniche, ti verrà presentata una domanda relativa alla storia che hai appena letto.	
+Routine 4 — Instructions	TXT		If you have understood the instructions and are ready to begin, press the 'Continue' button below.	Se hai capito le istruzioni e sei pronto per iniziare, premi il pulsante 'Continua' qui sotto. 	
+Routine 4 — Instructions	TXT		Otherwise, press 'Back' to read again.	Altrimenti, premi 'Indietro' per leggere di nuovo.	
+					
+Routine 5 — Affective Slider	TXT		Question	Domanda	
+Routine 5 — Affective Slider	TXT		How did you feel while reading this story that was presented to you?	Come ti sei sentita/o nel leggere questa storia che ti è stata presentata?	
+Routine 5 — Affective Slider	INT		Confirm	Conferma	
+Routine 5 — Affective Slider	TXT		Use the sliders above to provide an answer.	Utilizza gli slider qui sopra per fornire una risposta. 	
+Routine 5 — Affective Slider	TXT		The first slider asks which emotion you are feeling (from sad to happy).	Il primo slider chiede quale emozione stai provando (da triste a felice).	
+Routine 5 — Affective Slider	TXT		The second slider asks how activated you feel (from calm to activated).	 Il secondo slider chiede quanto ti senti attivata/o (da calma/o ad attivata/o).	
+Routine 5 — Affective Slider	TXT		Once you have selected an answer for both sliders, the Confirm button will appear to proceed.	 Quando avrai selezionato una risposta per entrambi gli slider, apparirà il tasto Conferma per proseguire.	
+					
+Routine 6 — Associative Task	TXT	The patient has taken Batatrim	The patient has taken Batatrim	Il paziente ha preso il Batatrim	
+Routine 6 — Associative Task	TXT	The patient has not taken Batatrim	The patient has not taken Batatrim	Il paziente non ha preso il Batatrim	
+Routine 6 — Associative Task	TXT	Do you think that the patient will overcome the crisis?	Do you think the patient will overcome the crisis?	Pensi che il paziente supererà la crisi?	
+Routine 6 — Associative Task	INT	Yes	Yes	Sì	
+Routine 6 — Associative Task	INT	No	No	No	
+Routine 6 — Associative Task	TXT	The patient overcome the crisis	The patient has overcome the crisis	Il paziente non ha superato la crisi	
+Routine 6 — Associative Task	TXT	The patient did not overcome the crisis	The patient has not overcome the crisis	Il paziente ha superato la crisi	
+					
+Routine 7 — Main dependent variable	TXT	To what extent do you think that Batatrim has been effective in healing the crises of the patients you have seen?	To what extent do you think that Batatrim has been effective in healing the crises of the patients you have seen?	In che misura pensi che il Batatrim sia stato efficace nel guarire la crisi dei pazienti che hai visto?	
+Routine 7 — Main dependent variable	TXT		The scale ranges from 0 to 100: with 0 being definitely no, and 100 being definitely yes	La scala va da 0 a 100: con 0 che significa decisamente no, e 100 che significa decisamente sì	
+Routine 7 — Main dependent variable	TXT		Click on the bar above, and you will see a slider appear.	Clicca sulla barra sopra, e vedrai apparire uno slider.	
+Routine 7 — Main dependent variable	TXT		You can drag this slider to any point on the scale.	 Puoi trascinare questo slider su qualsiasi punto della scala. 	
+Routine 7 — Main dependent variable	TXT		Once you are satisfied with your answer, click the Confirm button.	Una volta che sei soddisfatta/o della tua risposta, clicca il pulsante Conferma.	
+					
+Routine 8 — Previous knowledge	TXT		Beyond the specific case of Batatrim, in your PERSONAL experience, how effective are medications in treating diseases IN GENERAL?	Al di là del caso specifico del Batatrim, nella tua esperienza PERSONALE, quanto i farmaci sono efficaci IN GENERALE nel curare le malattie?	
+					
+Routine 9 — Memory Evaluation	TXT		Regarding the task you completed, where you were asked to evaluate the effectiveness of Batatrim in treating Lindsay syndrome  based on the observation of a series of medical records, try to estimate how many records you have seen:	Riguardo al compito che hai completato, in cui ti è stato chiesto di valutare l'efficacia del Batatrim nel trattamento della sindrome di Lindsay  in base all'osservazione di una serie di cartelle cliniche, cerca di stimare quante cartelle hai visto:	
+Routine 9 — Memory Evaluation	TXT		How many times was Batatrim PRESENT and the patient overcame the crisis?	Quante volte il Batatrim era PRESENTE e il paziente ha superato la crisi?	
+Routine 9 — Memory Evaluation	TXT		How many times was Batatrim PRESENT and the patient did NOT overcome the crisis?	Quante volte il Batatrim era PRESENTE e il paziente NON ha superato la crisi?	
+Routine 9 — Memory Evaluation	TXT		How many times was Batatrim ABSENT and the patient overcame the crisis?	Quante volte il Batatrim era ASSENTE e il paziente ha superato la crisi?	
+Routine 9 — Memory Evaluation	TXT		How many times was Batatrim ABSENT and the patient did NOT overcome the crisis?	Quante volte il Batatrim era ASSENTE e il paziente NON ha superato la crisi?	
+					
+Loading pages	TXT		Loading the patients' medical records...	Caricamento delle cartelle cliniche dei pazienti...	
+					
+Routine 10 — Difficulty Evaluation	TXT		How difficult did you find the reading and comprehension activity during this experiment?	Quanto hai trovato difficile l'attività di lettura e di comprensione durante questo esperimento?	
+Routine 10 — Difficulty Evaluation	TXT		The scale goes from 1 to 7: with 1 indicating Very Easy and 7 indicating Very Difficult	La scala va da 1 a 7: con 1 che indica Molto Facile e 7 che indica Molto Difficile	
