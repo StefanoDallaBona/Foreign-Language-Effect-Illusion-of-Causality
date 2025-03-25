@@ -1,0 +1,78 @@
+Variable number,"Variable name on Psychopy output file
+(time variables in red)",Variable name for analysis in R,"Row number on Psychopy file
+(for retrieving the variable)",Description,Language,"Mandatory variable?
+(alternative variables in blue)",Condition
+1,participant,participant,1,Participant Code,x,YES,
+2,group,condition,1,"Group Assignment (1 = Italian, non-1 = English)",x,YES,
+3,date,date,1,Date and Time of the Experiment,x,YES,
+4,tempo_consenso,t_consenso,3,Time Spent on the Informed Consent Page (in milliseconds),x,YES,
+5,tempo_istru,t_istruzioni,4,Time Spent on the Instruction Page (in milliseconds),x,YES,
+6,temposam,t_sam,4,Time Spent on the Affective Slider Page (in milliseconds),x,YES,
+7,sliderintensity.response,intensita,4,Self-Rating of Emotional Intensity (numeric scale from 0 to 1; 0.5 is the midpoint),ITA / ENG,YES,
+8,slidervalence.response,valenza,4,Self-Rating of Emotional Valence (numeric scale from 0 to 1; 0.5 is the midpoint),ITA / ENG,YES,
+9,tempo_tasktot,t_task,43,Time Spent on the Associative Task (in milliseconds),x,YES,
+10,tempo_vd,t_causalita,44,Time Spent on the Dependent Variable Page (in milliseconds),x,YES,
+11,vd.response,causalita,44,"Main Dependent Variable (Illusion of Causality, 101-point Likert scale; from 0 to 100)",ITA / ENG,YES,
+12,tempo_vd1,t_esperienza,44,Time Spent on the Previous Knowledge Question Page (in milliseconds),x,YES,
+13,previous.response,esperienza,44,Previous Knowledge Response (101-point Likert scale; from 0 to 100),ITA / ENG,YES,
+14,EstENG.TrialNN,trial_nn_e,44,"Response to the Question: ""How many times did you see Batatrim absent and the heal absent?"" (in English, number between 0 and 100)",ENG,ALTERNATIVE ENG I,"If the participant is assigned to the ""English group"" (the corresponding variable in Italian is ""trial_nn_i"")"
+15,EstENG.TrialNS,trial_ns_e,44,"Response to the Question: ""How many times did you see Batatrim absent and the heal present?"" (in English, number between 0 and 100)",ENG,ALTERNATIVE ENG II,"If the participant is assigned to the ""English group"" (the corresponding variable in Italian is ""trial_ns_i"")"
+16,EstENG.TrialSN,trial_sn_e,44,"Response to the Question: ""How many times did you see Batatrim present and the heal absent?"" (in English, number between 0 and 100)",ENG,ALTERNATIVE ENG III,"If the participant is assigned to the ""English group"" (the corresponding variable in Italian is ""trial_sn_i"")"
+17,EstENG.TrialSS,trial_ss_e ,44,"Response to the Question: ""How many times did you see Batatrim present and the heal present?"" (in English, number between 0 and 100)",ENG,ALTERNATIVE ENG IV,"If the participant is assigned to the ""English group"" (the corresponding variable in Italian is ""trial_ss_i"")"
+18,EstITA.TrialD,trial_nn_i,44,"Response to the Question: ""How many times did you see Batatrim absent and the heal absent?"" (in Italian, number between 0 and 100)",ITA,ALTERNATIVE ITA I,"If the participant is assigned to the ""Italian group"" (the corresponding variable in English is ""trial_nn_e"")"
+19,EstITA.TrialNS,trial_ns_i,44,"Response to the Question: ""How many times did you see Batatrim absent and the heal present?"" (in Italian, number between 0 and 100)",ITA,ALTERNATIVE ITA II,"If the participant is assigned to the ""Italian group"" (the corresponding variable in English is ""trial_ns_e"")"
+20,EstITA.TrialSN,trial_sn_i,44,"Response to the Question: ""How many times did you see Batatrim present and the heal absent?"" (in Italian, number between 0 and 100)",ITA,ALTERNATIVE ITA III,"If the participant is assigned to the ""Italian group"" (the corresponding variable in English is ""trial_sn_e"")"
+21,EstITA.TrialSS,trial_ss_i,44,"Response to the Question: ""How many times did you see Batatrim present and the heal present?"" (in Italian, number between 0 and 100)",ITA,ALTERNATIVE ITA IV,"If the participant is assigned to the ""Italian group"" (the corresponding variable in English is ""trial_ss_e"")"
+22,tempo_pf,t_pf,45,Time Spent on the Perceived Difficulty Question Page (in milliseconds),x,YES,
+23,PF.started,t_pf_cum_inizio,45,Total Experiment Time Before the Appearance of Process Fluency Question (in milliseconds),x,YES,
+24,Previous.stopped,t_pf_cum_fine,44,Total Experiment Time After the Previous Knowledge Question (in milliseconds; the difference with the previous value provides an estimate of the time spent on the Estimation of Trials page),x,YES,
+25,processfluency.response,pf,45,"Process Fluency Evaluation (Subjective Difficulty, 7-point Likert scale; from 1 to 7)",ITA / ENG,YES,
+26,Questionario_Lingua.Age,eta,45,Inquiry About Age (numeric variable from 0 to 100),ITA,YES,
+27,Questionario_Lingua.Sesso,sesso,45,Inquiry About Sex (dichotomous variable; M or F),ITA,YES,
+28,Questionario_Lingua.StaiStudiando.,studi,45,Inquiry About Studying (dichotomous variable; Y or N),ITA,YES,
+29,Questionario_Lingua.Anniscolarita,scolarita,45,Inquiry About Age of Studying (numeric variable from 0 to [Age - 3]),ITA,YES,
+30,Questionario_Lingua.Diploma,diploma_e,45,Inquiry About the Possession of an English Diploma (dichotomous variable; Y or N),ITA,YES,
+31,Questionario_Lingua.Punteggiodiploma,punteggiodiploma,45,Inquiry About the Score of the English Diploma (ordinal scale; from A1 to C2),ITA,NO,"If the answer about the possession of an English diploma is ""Y"" (Yes)"
+32,Questionario_Lingua.Altridiplo,altrodiploma,45,Inquiry About the Score of the English Diploma (qualitative response; if the previous response is missing),ITA,NO,"If the answer about the score of the English diploma is missing (""The score is not on the list"")"
+33,Questionario_Lingua.ItaMADRE.,linguanativa_i,45,"Response to the Question: ""Is Italian your native language?"" (dichotomous variable: Y or N)",ITA,YES,
+34,Questionario_Lingua.INGmadre.,linguanativa_e,45,"Response to the Question: ""Is English your native language?"" (dichotomous variable: Y or N)",ITA,YES,
+35,Questionario_Lingua.Q5.AOAIng.,AOA_e,45,Age of Acquisition of English (numeric variable from 0 to [Age]),ITA,NO,"If the answer to ""Is English your native language?"" is ""Y"" (Yes)"
+36,Questionario_Lingua.Q4.AoAITA.,AOA_i,45,Age of Acquisition of Italian (numeric variable from 0 to [Age]),ITA,NO,"If the answer to ""Is Italian your native language?"" is ""Y"" (Yes)"
+37,Questionario_Lingua.INGLETTURA,lett_e,45,Inquiry About Perceived English Competence in Reading (10-point Likert scale; from 1 to 10),ITA,NO,"If the answer to ""Is English your native language?"" is ""Y"" (Yes)"
+38,Questionario_Lingua.INGCOMPRESO,comp_e,45,Inquiry About Perceived English Competence in Comprehension (10-point Likert scale; from 1 to 10),ITA,NO,"If the answer to ""Is English your native language?"" is ""Y"" (Yes)"
+39,Questionario_Lingua.INGSCRITTO,scri_e,45,Inquiry About Perceived English Competence in Writing (10-point Likert scale; from 1 to 10),ITA,NO,"If the answer to ""Is English your native language?"" is ""Y"" (Yes)"
+40,Questionario_Lingua.INGPARLATO,parl_e,45,Inquiry About Perceived English Competence in Speaking (10-point Likert scale; from 1 to 10),ITA,NO,"If the answer to ""Is English your native language?"" is ""Y"" (Yes)"
+41,Questionario_Lingua.ITALETT,lett_i,45,Inquiry About Perceived Italian Competence in Reading (10-point Likert scale; from 1 to 10),ITA,NO,"If the answer to ""Is Italian your native language?"" is ""Y"" (Yes)"
+42,Questionario_Lingua.ITACOMP,comp_i,45,Inquiry About Perceived Italian Competence in Comprehension (10-point Likert scale; from 1 to 10),ITA,NO,"If the answer to ""Is Italian your native language?"" is ""Y"" (Yes)"
+43,Questionario_Lingua.ITASCRI,scri_i,45,Inquiry About Perceived Italian Competence in Writing (10-point Likert scale; from 1 to 10),ITA,NO,"If the answer to ""Is Italian your native language?"" is ""Y"" (Yes)"
+44,Questionario_Lingua.ITAPARL,parl_i,45,Inquiry About Perceived Italian Competence in Speaking (10-point Likert scale; from 1 to 10),ITA,NO,"If the answer to ""Is Italian your native language?"" is ""Y"" (Yes)"
+45,Questionario_Lingua.haivissutoestero,estero,45,Inquiry About Whether the Participant Lives in a Foreign Country with English as the Main Language (dichotomous variable: Y or N),ITA,YES,
+47,ProvaInglese.ProcediamoENg,inizioprovaing,45,Response to the Confirm Button to Initiate the English Test (one response available),ITA,YES,
+48,ProvaInglese.C1,PI_1,45,"Question 1 (dichotomous variable: correct / incorrect; 3 possible responses, 1 correct)",ENG,YES,
+49,ProvaInglese.C2,PI_2,45,"Question 2 (dichotomous variable: correct / incorrect; 3 possible responses, 1 correct)",ENG,YES,
+50,ProvaInglese.C3,PI_3,45,"Question 3 (dichotomous variable: correct / incorrect; 3 possible responses, 1 correct)",ENG,YES,
+51,ProvaInglese.C4,PI_4,45,"Question 4 (dichotomous variable: correct / incorrect; 3 possible responses, 1 correct)",ENG,YES,
+52,ProvaInglese.C5,PI_5,45,"Question 5 (dichotomous variable: correct / incorrect; 3 possible responses, 1 correct)",ENG,YES,
+53,ProvaInglese.C6,PI_6,45,"Question 6 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+54,ProvaInglese.C7,PI_7,45,"Question 7 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+55,ProvaInglese.C8,PI_8,45,"Question 8 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+56,ProvaInglese.C9,PI_9,45,"Question 9 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+57,ProvaInglese.C10,PI_10,45,"Question 10 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+58,ProvaInglese.C11,PI_11,45,"Question 11 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+59,ProvaInglese.C12,PI_12,45,"Question 12 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+60,ProvaInglese.C13,PI_13,45,"Question 13 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+61,ProvaInglese.C14,PI_14,45,"Question 14 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+62,ProvaInglese.C15,PI_15,45,"Question 15 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+63,ProvaInglese.C16,PI_16,45,"Question 16 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+64,ProvaInglese.C17,PI_17,45,"Question 17 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+65,ProvaInglese.C18,PI_18,45,"Question 18 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+66,ProvaInglese.C19,PI_19,45,"Question 19 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+67,ProvaInglese.C20,PI_20,45,"Question 20 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+68,ProvaInglese.C21,PI_21,45,"Question 21 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+69,ProvaInglese.C22,PI_22,45,"Question 22 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+70,ProvaInglese.C23,PI_23,45,"Question 23 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+71,ProvaInglese.C24,PI_24,45,"Question 24 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+72,ProvaInglese.C25,PI_25,45,"Question 25 (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+73,ProvaInglese.controlquestion,PI_26_controllo,45,"Control Question to Check Participant Attention (dichotomous variable: correct / incorrect; 4 possible responses, 1 correct)",ENG,YES,
+74,exp_loop.ran,CI,45,"1 = Participant has expressed ""Yes"" to the Informed Consent",ENG,YES,
+75,Ant_lastquestion.stopped,totaltime,45,Total Experiment Time (in milliseconds),x,YES,
