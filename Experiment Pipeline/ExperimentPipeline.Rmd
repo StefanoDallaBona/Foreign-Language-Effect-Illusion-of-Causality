@@ -1,0 +1,78 @@
+---
+title: "Experiment Pipeline for the Experiment on the Relationship Between the Illusion of Causality and the Foreign Language Effect"
+output: pdf_document
+date: "2025-03-16"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview
+
+This `R` code is used to extract variables from raw participant sheet data. Only these data will be analyzed ultimately.
+
+## Importing the File with Variables
+
+First, we select the `ExperimentVariables.csv` file as the one we intend to use to guide the extraction of data. This file is available on the [**OSF project webpage**](https://osf.io/hvgkx/?view_only=7098178875224cf3b0b6890b209432ea) (this webpage link is in read-only mode for peer review purposes) for this study.
+
+```{r carsu}
+#Choose "ExperimentVariables.csv"
+# coordinate <- read.csv(file.choose())
+```
+
+## Function to Extract Raw Data
+
+This function extracts raw data to compose the final dataset to use. The commented-out code can be uncommented to specify the working directory (`setwd()`) containing the experiment raw data.
+
+```{r cars}
+estrai_valori <- function(file_path) {
+  dataset <- read.csv(file_path)
+  
+  risultati <- c()
+  
+  variabili <- coordinate[, 2]  # The column for the variables names
+  
+  righe <- coordinate[, 4]  # The rows to extract
+  
+  for (i in 1:length(variabili)) {
+    var <- variabili[i]
+    if (var %in% colnames(dataset)) {
+      risultati <- c(risultati, dataset[righe[i], var])
+    } else {
+      risultati <- c(risultati, NA)
+    }
+  }
+  
+  return(risultati)
+}
+
+# setwd("your_directory_path")  # Uncomment to specify working directory
+# file_paths <- list.files(getwd())  # Uncomment to list files in working directory
+
+```
+
+```{r carsuc, echo=FALSE}
+ coordinate <- read.csv("/Users/stefanodallabona/Desktop/Materials CLTFLE/Variabili Esperimento/ExperimentVariables.csv")
+file_paths <- list.files("/Users/stefanodallabona/Desktop/Materials CLTFLE/PipelineandPilot/PilotData")
+file_paths <- c("/Users/stefanodallabona/Desktop/Materials CLTFLE/PipelineandPilot/PilotData/pilot_participant_CLTandFLE_2025-03-25_14h50.55.328.csv","/Users/stefanodallabona/Desktop/Materials CLTFLE/PipelineandPilot/PilotData/pilot_participant_CLTandFLE_2025-03-25_14h35.21.956.csv")
+                
+
+```
+
+## Extracting Raw Data to Create a Dataframe
+
+We give an example with a few pilot data used to test the experiment:
+
+```{r carsu8o}
+risultati <- lapply(file_paths, estrai_valori)
+
+df_risultati <- do.call(rbind, risultati)
+
+# Assign column names based on the coordinate file
+colnames(df_risultati) <- coordinate[, 3]  
+
+df_risultati <- as.data.frame(df_risultati)
+
+df_risultati
+```
