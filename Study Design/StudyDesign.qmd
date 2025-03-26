@@ -1,0 +1,28 @@
+---
+title: "Study Design of the Experiment"
+format: beamer
+editor: visual
+---
+  
+## Two group comparison
+
+The study design is a simple 2-group comparison between participants (native Italians with moderate English fluency) who complete the experiment in Italian and those who complete it in English.
+
+```{mermaid, echo=T}
+flowchart LR
+  A[Italian Participants] --> B[English Group]
+  A[Italian Participants] --> C[Italian Group]
+```
+
+## Confirmatory vs. Exploratory
+
+If the confirmatory hypothesis finds statistical support for a reduction of the illusion of causality in the English group, we aim to further explore the reasons for the observed reduction through the analysis of other measures collected in the experiment, using an exploratory approach.
+
+```{mermaid, echo=T}
+flowchart LR
+  A{Confirmed results?} --> B[Yes: Exploratory Analysis]
+  A{Confirmed results?} --> C[No: Evidence of Absence]
+
+```
+
+
