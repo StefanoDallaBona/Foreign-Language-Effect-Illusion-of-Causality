@@ -5,14 +5,14 @@ This GitHub repository contains all the supplementary materials for the experime
 - **The "Back Translation" folder** contains the results of the back-translation procedure that we used to create two conditions in our experiment: one in Italian and one in English.
   
 - **The "Design Analysis" folder** contains the procedure we used to determine a sample size for the two-group comparison and the priors that we intend to use to provide statistical evidence for both H0 and H1 (i.e., the prior for the BayesFactor ratio between the two models).
-- 
-- - **The "Experiment" folder** contains the experiment code (PsychoPy).
-  - 
+  
+-  **The "Experiment" folder** contains the experiment code (PsychoPy).
+    
 - **The "Experiment Pipeline" folder** contains the R pipeline that will be used to extract a dataframe for the analysis from raw data.
 
 - **The "Experiment Structure" folder** contains the flow diagram illustrating the routine sequence of the experiment, highlighting the language differences for the two groups involved.
 
-- - **The "Experiment Variables" folder** contains the list of measured variables in the experiment.
+-  **The "Experiment Variables" folder** contains the list of measured variables in the experiment.
   
 - **The "Original Experiment Analysis" folder** contains the re-analysis of the original experiment on which we based our study.
 
