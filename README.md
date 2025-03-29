@@ -6,7 +6,7 @@ This GitHub repository contains all the supplementary materials for the experime
   
 - **The "Design Analysis" folder** contains the procedure we used to determine a sample size for the two-group comparison and the priors that we intend to use to provide statistical evidence for both H0 and H1 (i.e., the prior for the BayesFactor ratio between the two models).
   
--  **The "Experiment" folder** contains the experiment code (PsychoPy).
+-  **The "Experiment" folder** contains the experiment code (PsychoPy and Psychojs), along with the resources for running the experiment.
     
 - **The "Experiment Pipeline" folder** contains the R pipeline that will be used to extract a dataframe for the analysis from raw data.
 
