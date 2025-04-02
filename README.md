@@ -5,7 +5,7 @@ This GitHub repository contains all the supplementary materials for the experime
 - **The "Back Translation" folder** contains the results of the back-translation procedure that we used to create two conditions in our experiment: one in Italian and one in English.
   
 - **The "Design Analysis" folder** contains the procedure we used to determine a sample size for the two-group comparison and the priors that we intend to use to provide statistical evidence for both H0 and H1 (i.e., the prior for the BayesFactor ratio between the two models). Specifically, the "BFDA" file contains the Bayes Factor Design Analysis, whereas the "Distsimulation" file contains the simulations used to create the prior distribution for H1.
--   
+  
 -  **The "Experiment" folder** contains the experiment code (PsychoPy and Psychojs), along with the resources for running the experiment.
     
 - **The "Experiment Pipeline" folder** contains the R pipeline that will be used to extract a dataframe for the analysis from raw data.
