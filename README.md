@@ -1,6 +1,6 @@
 # GitHub Repository for the Experiment on the Relationship Between the Illusion of Causality and the Foreign Language Effect
 
-This GitHub repository contains all the supplementary materials for the experiment titled *"The Foreign Language Effect on the Illusion of Causality: A Replication Attempt and an Exploratory Analysis of the Mechanisms."* The project is also available on OSF (link to the project: [OSF Project](https://osf.io/hvgkx/?view_only=7098178875224cf3b0b6890b209432ea)). Please read the project and the related pre-registration to correctly access the following materials:
+This GitHub repository contains all the supplementary materials for the experiment titled *"The Foreign Language Effect on the Illusion of Causality: A Replication Attempt and an Exploratory Analysis of the Mechanisms."* The project is also available on OSF (link to the project: [OSF Project](https://osf.io/hvgkx/?view_only=7098178875224cf3b0b6890b209432ea)). Please read the project (available at **"Study Draft" folder**) and the related pre-registration to correctly access the following materials:
 
 - **The "Back Translation" folder** contains the results of the back-translation procedure that we used to create two conditions in our experiment: one in Italian and one in English.
   
@@ -19,4 +19,3 @@ This GitHub repository contains all the supplementary materials for the experime
 - **The "Planned Exploratory Analysis" folder** contains a general schema for the exploratory part of our experiment.
  
 - **The "Study Design" folder** contains the schemas of the design for our experiment.
-
