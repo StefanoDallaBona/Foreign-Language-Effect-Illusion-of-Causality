@@ -19,3 +19,9 @@ This GitHub repository contains all the supplementary materials for the experime
 - **The "Planned Exploratory Analysis" folder** contains a general schema for the exploratory part of our experiment.
  
 - **The "Study Design" folder** contains the schemas of the design for our experiment.
+
+# UPDATE after data collection
+
+- **The "Formal Analysis" folder** contains the formal analysis of the experiment.
+ 
+- **The "Raw data" folder** contains raw data files.
